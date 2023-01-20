@@ -1,0 +1,262 @@
+body{
+  overflow-x: hidden;
+}
+.open_modal_btn{
+  float: right;
+  height: 32px;
+  margin-top: 5px;
+}
+.font_size_small{
+font-size: 13px !important;
+}
+.btn_custom_class{
+  height: 32px;
+  margin-top: 5px;
+  font-size: 12px;
+}
+.ul_inline{
+  display: inline;
+  padding: 8px;
+  border-left: 1px solid #ccc;
+}
+/* .ul_height {
+
+} */
+.custom_card{
+border-top: 6px solid #0A5280;
+border-right: 1px solid #ccc;
+border-left: 1px solid #ccc;
+border-bottom: 1px solid #ccc;
+}
+
+.btn-link{
+color: #fff !important;
+border-radius: 0px !important;
+font-size: 11px;
+}
+
+.slick-slider .element{
+height:100px;
+width:100px;
+background-color:#000;
+color:#fff;
+border-radius:5px;
+display:inline-block;
+margin:0px 10px;
+display:-webkit-box;
+display:-ms-flexbox;
+display:flex;
+-webkit-box-pack:center;
+    -ms-flex-pack:center;
+        justify-content:center;
+-webkit-box-align:center;
+    -ms-flex-align:center;
+        align-items:center;
+font-size:20px;
+}
+.slick-slider .slick-disabled {
+opacity : 0; 
+pointer-events:none;
+}
+
+.slick-arrow:before { color: red; }
+
+.left_custom{
+font-size: 23px;
+  font-weight: bold;
+  position: absolute;
+  top: 38%;
+  left: -14px;
+}
+
+.right_custom{
+font-size: 15px;
+position: absolute;
+top: 38%;
+right: -14px;
+}
+
+
+/* ---------------------------------
+      course info
+-----------------------------------*/
+.courses_info ul li label {
+color: #000;
+font-weight: 600;
+margin: 0px;
+margin-bottom: 10px;
+}
+
+.courses_info ul li {
+margin-bottom: 6px;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+list-style: none;
+}
+
+.courses_info ul {
+margin: 0px !important;
+padding-left: 0;
+}
+
+.courses_info {
+padding: 30px 0px;
+}
+
+.courses_info ul li {
+margin-bottom: 6px;
+font-weight: 400;
+}
+
+
+
+.nav-link[data-toggle].collapsed:after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f067"; 
+}
+.nav-link[data-toggle]:not(.collapsed):after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f068";
+}
+
+.nav-link-1[data-toggle].collapsed:after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f067"; 
+}
+.nav-link-1[data-toggle]:not(.collapsed):after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f068";
+}
+.nav-link-2[data-toggle].collapsed:after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f067"; 
+}
+.nav-link-2[data-toggle]:not(.collapsed):after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f068";
+}
+.nav-link-3[data-toggle].collapsed:after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f067"; 
+}
+.nav-link-3[data-toggle]:not(.collapsed):after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f068";
+}
+.nav-link-4[data-toggle].collapsed:after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f067"; 
+}
+.nav-link-4[data-toggle]:not(.collapsed):after {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  content: "\f068";
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 768px) { 
+.media-query {
+  width: 100% !important;
+  margin-top: 26px;
+}
+.fa.fa-home.mb-2 {
+display: none;
+}
+.fa.fa-book.mb-2 {
+display: none;
+}
+.fa.fa-graduation-cap.mb-2 {
+display: none;
+}
+.fa.fa-signal.mb-2 {
+display: none;
+}
+.fa.fa-institution.mb-2 {
+display: none;
+}
+.card-body {
+text-align: center;
+}
+
+.fa.fa-child.mb-2 {
+  display: none;
+}
+.card-1 {
+text-align: center;
+font-size: 12px;
+}
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+@media screen and (min-device-width: 220px) and (max-device-width: 768px) { 
+.media-query {
+   margin-top: 23px;
+  width: 100% !important;
+}
+.fa.fa-home.mb-2 {
+display: none;
+}
+.fa.fa-book.mb-2 {
+display: none;
+}
+.fa.fa-graduation-cap.mb-2 {
+display: none;
+}
+.fa.fa-signal.mb-2 {
+display: none;
+}
+.fa.fa-institution.mb-2 {
+display: none;
+}
+.card-body {
+text-align: center;
+}
+
+.fa.fa-child.mb-2 {
+  display: none;
+}
+.card-1 {
+text-align: center;
+font-size: 12px;
+}
+.card-1 {
+text-align: center;
+font-size: 12px;
+}
+}
+
+
+
+
+
